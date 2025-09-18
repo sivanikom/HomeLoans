@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+
+    <!-- <div class="container h-100" style="height: 60%; margin-top: -5%;"> -->
+
+      <!-- </div> -->
+      <div id="wrapper">
+        <div class="bg-dark" id="fifth">
+          <h5><ul>
+              <li>Home Purchase Loan - You can buy any house or home that is within your budget</li>
+              <li>Construction Home Loan – You can use this loan to cover the costs of building a house</li>
+              <li>Land Purchase Loan - You can use this loan to buy a piece of land</li>
+              <li>Home Improvement Loan – You can use this loan to renovate and improve your house</li>
+              <li>Home Repair Loan – Pay for the cost of repair and restoration of your home</li>
+              <li>Home Extension Loan – Increase the amount of built up space at your home using this loan.</li>
+          </ul></h5>
+        </div>   
+        <div id="fourth">
+            <h3>Different kinds of home loans options that are made to suit each unique situation. 
+                You can take home loans to buy properties that are either commercial or personal in nature. 
+                Here are some of the different kinds of home loans you can take.</h3>
+        </div>
+    </div>
+
+      <div id="wrapper" style="background-color: #eee;">
+        
+        <div  id="second"><br><br>
+          <img src="assets/images/home.gif" alt="" style="width:200%">
+        </div>
+        <div class="bg-dark" id="first">
+          <h3>Home Loans</h3>
+          <h4>With our Express Home Loans platform you can now get a digital sanction of your Home Loan at attractive rate of interest!!</h4>
+          <br>
+          <button *ngIf="!userloginService.isUserLoggedIn()" style="background-color: orange;" class="btn-lg" type="submit"><a href="login" style="text-decoration: none; color: black;" class="" routerLinkActive="active">Apply Now</a></button>
+          <button *ngIf="userloginService.isUserLoggedIn()" style="background-color: orange;" class="btn-lg" type="submit"><a href="application/" style="text-decoration: none; color: black;" class="" routerLinkActive="active">Apply Now</a></button>
+      </div>
+      <div  id="second"><br><br>
+        <img src="assets/images/key.gif" alt="" style="width:200%">
+      </div>
+    </div>
+</body>
+
+</html>

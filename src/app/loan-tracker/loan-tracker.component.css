@@ -1,0 +1,36 @@
+body {
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+h2 {
+    
+
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    text-align:center;
+}
+
+
+#wrapper {
+    /* width: 500px; */
+    /* border: 1px solid black; */
+    overflow: hidden; 
+    /* justify-content: center; */
+    padding: 2%;
+}
+#first {
+    width: 700px;
+    float:left; /* add this */
+    border-radius: 2%;
+    border: black 1px solid;
+    margin: 2%;
+    padding: 2%;
+    height: 350px;
+    color: white;
+    font-weight:bold;
+
+
+}
